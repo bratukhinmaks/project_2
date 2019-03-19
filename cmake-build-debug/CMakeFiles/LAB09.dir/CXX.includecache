@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macbookpro/Desktop/projects/project_2/MyClass.cpp
+MyClass.h
+/Users/macbookpro/Desktop/projects/project_2/MyClass.h
+iostream
+-
+string
+-
+cstdlib
+-
+
+/Users/macbookpro/Desktop/projects/project_2/MyClass.h
+iostream
+-
+
+/Users/macbookpro/Desktop/projects/project_2/main.cpp
+iostream
+-
+string
+-
+cstdlib
+-
+MyClass.cpp
+/Users/macbookpro/Desktop/projects/project_2/MyClass.cpp
+
