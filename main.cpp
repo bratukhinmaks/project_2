@@ -5,7 +5,8 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
-#include "MyClass.cpp"
+#include "complex.cpp"
+#include "fifo.cpp"
 
 using namespace std;
 
@@ -46,7 +47,8 @@ int main()
     }
 
     cout << "-----------" << endl;
-     cout << *s2<<endl ;
+    cout << *s2<<endl ;
 
     return 0;
 }
+

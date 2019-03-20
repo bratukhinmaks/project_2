@@ -1,9 +1,9 @@
 //
-// Created by MacBook Pro on 2019-03-11.
+// Created by MacBook Pro on 2019-03-20.
 //
 
-#ifndef COMPLEX_NUMBER_H
-#define COMPLEX_NUMBER_H
+#ifndef PROJECT_2_COMPLEX_H
+#define PROJECT_2_COMPLEX_H
 using namespace std;
 #include <iostream>
 
@@ -25,16 +25,10 @@ public:
     complexNumber & operator +=( const complexNumber & a  );
     complexNumber & operator -=( const complexNumber & a  );
     friend ostream& operator << ( ostream& zespol, const complexNumber & a ){
-            return zespol << a.RealPart << "+" << a.ImagaryPart  << "i"<<endl;
+        return zespol << a.RealPart << "+" << a.ImagaryPart  << "i"<<endl;
     }
 };
-struct fifo{
-public:
-    complexNumber *first;  // wskaźnik na początek listy
-    void addNumber (int RealPart, int ImagaryPart);
-    void deleteNumber (int nr);
-    void showFifo ();
-    fifo();
-};
 
-#endif //PROJECT_2_MAIN_H
+
+
+#endif //PROJECT_2_COMPLEX_H
